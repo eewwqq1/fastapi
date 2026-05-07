@@ -7,7 +7,7 @@ from domain.answer import answer_router
 #
 from starlette.middleware.cors import CORSMiddleware
 
-app = FastAPI(root_path="/api")
+app = FastAPI()
 
 origins = [
     "*"
